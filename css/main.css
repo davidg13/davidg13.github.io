@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    color: #000;
+    background: #FFF;
+}
+
+div.main {
+    width: 980px;
+    
+}
+
+h1, h2, h3 {
+    margin: 1.25em auto 0.25em auto;
+    text-align: center;
+}    
+
+hr {
+    margin-bottom: 1.25em;
+}
+
+header h1 {
+    margin-bottom: 0.25em;
+}
+
+header h2 {
+    margin: 0 auto;
+    color: #BBB;		    
+}
+
+div.container {
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+ul.contact {
+    list-style: none;
+    text-align: center;
+}
+ul.contact li {
+    display: inline-block;
+    margin-right: 1em;
+}
+p.summary-text {
+    text-align: justify;
+}
+div.job-location {
+    text-align: center;
+}
+div.job-title-row {
+    text-align: left;
+}
+div.job-title-row div {
+    display: inline-block;
+}
+div.job-title-row div.job-title {
+    width: 29%;
+}
+div.job-title-row div.job-tenure {
+    width: 70%;
+    text-align: right;
+}
+ul.job-details {
+    text-align: left;
+}
+div.education-row div {
+    display: inline-block;
+}
+div.education-row div.education-year::before {
+    content: "\2014\2009"; 
+}
+dl.skills-list dt {
+    text-align: left;
+}
+dl.skills-list dd {
+    text-align: right;
+}
