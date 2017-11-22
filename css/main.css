@@ -63,6 +63,9 @@ div.job-title-row div.job-tenure {
 ul.job-details {
     text-align: left;
 }
+ul.job-details li {
+    margin: 0.5em auto;
+}
 div.education-row div {
     display: inline-block;
 }
